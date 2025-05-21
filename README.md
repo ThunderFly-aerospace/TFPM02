@@ -10,6 +10,10 @@ Look to the following video for a demonstration flight of a sensor mounted on [T
 
 The [SEN5x](https://sensirion.com/products/catalog/SEN54/) sensor is directly connected to the I²C bus on PX4 autopilot supported hardware by using JST-GH cable.  
 
+## Vendor information 
+
+ThunderFly TFPM02 particulate matter sensor is commercially available as a product or service from [ThunderFly s.r.o.](https://www.thunderfly.cz/), write an email to info@thunderfly.cz to request more details. 
+
 ## The main features
 
  - Particulate matter sensing PM1.0, PM2.5, PM4 and PM10 in range 0 - 1000 μg/m³ (Accuracy ±10 %)
