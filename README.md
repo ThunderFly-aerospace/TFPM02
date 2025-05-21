@@ -6,16 +6,20 @@ Look to the following video for a demonstration flight of a sensor mounted on [T
 
 [![TF-ATMON particulate matter sensing demonstration](https://img.youtube.com/vi/KUhktPDEi8I/hqdefault.jpg)](https://www.youtube.com/watch?v=KUhktPDEi8I)
 
+## Vendor information 
+
+ThunderFly TFPM02 particulate matter sensor is commercially available as a product or service from [ThunderFly s.r.o.](https://www.thunderfly.cz/), write an email to info@thunderfly.cz to request more details. 
+
 ## The main features
 
  - Particulate matter mass concentration PM1.0, PM2.5, PM4 and PM10 in range 0 - 1000 μg/m³ (Accuracy ±10 %)
  - Number concentration for PM0.5, PM1, PM2.5, PM4 and PM10 in range 0 to 3000 #/cm3 
  
-Humidity Temperature measurement required to correct interpretation of measured data is not provided directly by the TFPM02A sensor itself. Please use the [TFHT01](https://github.com/ThunderFly-aerospace/TFHT01) to get the humidity and temperature data.
+The humidity Temperature measurement required to correct the interpretation of measured data is not provided directly by the TFPM02A sensor itself. Please use the [TFHT01](https://github.com/ThunderFly-aerospace/TFHT01) to get the humidity and temperature data.
 
 ## Usage
 
-The modified [SPS30](https://sensirion.com/products/catalog/SPS30/) sensor is directly connected to the PX4 autopilot supported hardware by using ZHR-5 to JST-GH cable. 
+The modified [SPS30](https://sensirion.com/products/catalog/SPS30/) sensor is directly connected to the PX4 autopilot-supported hardware by using ZHR-5 to JST-GH cable. 
 
 ![Bottom view on TFPM02A particulate matter sensor](doc/img/TFPM02_bottom.jpg)
 
